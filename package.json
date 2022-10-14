@@ -1,0 +1,26 @@
+{
+  "name": "mangodb_crashcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "devStart": "nodemon script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojo501/mangoDB_crashCourse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojo501/mangoDB_crashCourse/issues"
+  },
+  "homepage": "https://github.com/wojo501/mangoDB_crashCourse#readme",
+  "dependencies": {
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
