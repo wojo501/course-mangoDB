@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 const User = require("./User")
 
-mongoose.connect("mongodb://localhost/testdb", () => {
+mongoose.connect('mongodb://localhost/testdb', () => {
     console.log("Connected")
 },
     e => {
@@ -15,3 +15,5 @@ async function run() {
     await user.save()
     console.log(user)
 }
+
+console.log("Hello")
